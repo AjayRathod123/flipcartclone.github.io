@@ -1,0 +1,34 @@
+.navbar {
+  width: 100%;
+  height: 15vh;
+  background-color: rgb(245, 243, 243);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid lightgray;
+}
+
+.navlist__list {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.navlist__list img {
+  object-fit: contain;
+  height: 50px;
+  width: 50px;
+}
+
+.navlist__list h3 {
+  font-size: 0.9rem;
+}
+
+.navlist__list img:hover {
+  cursor: pointer;
+}
+
+.navlist__list h3:hover {
+  cursor: pointer;
+}

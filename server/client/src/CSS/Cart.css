@@ -1,0 +1,203 @@
+.main__cart {
+  display: flex;
+  background-color: #f2f2f2;
+}
+
+.left__cart {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 49%;
+  margin-left: 150px;
+  margin-top: 20px;
+}
+
+.left__heading {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+  padding: 10px;
+  width: 100%;
+}
+
+.left__heading h2 {
+  margin-left: 10px;
+}
+
+.left__heading img {
+  margin-left: 340px;
+  margin-right: 10px;
+}
+
+.deliver {
+  font-weight: bold;
+  color: gray;
+}
+
+.location {
+  margin-left: 30px;
+  font-weight: bold;
+  border: 1px solid lightgray;
+  padding: 10px;
+}
+
+.left__body {
+  display: flex;
+  border-bottom: 1px solid lightgray;
+}
+
+.body__left img {
+  width: 120px;
+  margin-left: 60px;
+  margin-top: 20px;
+}
+
+.count {
+  display: flex;
+}
+
+.count p {
+  display: flex;
+  justify-content: center;
+  width: 50px;
+  border: 1px solid lightgray;
+  border-radius: 60px;
+  margin: 15px;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 15px;
+}
+
+.count p:hover {
+  cursor: pointer;
+}
+
+.body__right {
+  margin-left: 30px;
+  margin-top: 40px;
+}
+
+.body__rightheader {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.body__rightheader:hover {
+  color: #2874f0;
+  cursor: pointer;
+}
+
+.smart {
+  color: #878787;
+}
+
+.seller {
+  margin-top: 10px;
+  color: #878787;
+}
+
+.price {
+  display: flex;
+  margin-top: 20px;
+}
+
+.fakeprice {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.realprice {
+  color: #878787;
+  margin-left: 20px;
+}
+
+.discountt {
+  margin-left: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #26a541;
+}
+
+.saveorremove {
+  display: flex;
+  margin-top: 40px;
+}
+
+.save:hover {
+  cursor: pointer;
+  color: #2874f0;
+}
+
+.remove {
+  margin-left: 30px;
+}
+
+.remove:hover {
+  cursor: pointer;
+  color: #2874f0;
+}
+
+.right__cart {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 30%;
+  margin-left: 20px;
+  margin-top: 20px;
+  border-bottom: 1px solid lightgray;
+}
+
+.right__header {
+  padding-top: 15px;
+  padding-left: 20px;
+  padding-bottom: 15px;
+  color: #878787;
+  border-bottom: 1px solid lightgray;
+  font-size: 1rem;
+}
+
+.right__details {
+}
+
+.right__price {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  color: #878787;
+}
+
+.right__discount {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  color: #878787;
+}
+
+.right__charges {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  padding-bottom: 10px;
+  color: #878787;
+  border-bottom: 1px solid lightgray;
+}
+
+.free {
+  color: #26a541;
+}
+
+.right__total {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  color: #878787;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 10px;
+}
+
+.right__save {
+  margin: 20px;
+  color: #26a541;
+}
+
+/* #878787 */
